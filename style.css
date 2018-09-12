@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 
-.top-link:hover a {
+.top-link:hover a, .top-link a:focus {
     opacity: .85;
     text-decoration: underline;
 }
@@ -44,6 +44,10 @@ a {
 
 .apps a {
     background-position: -132px -38px;
+    opacity: .55;
+}
+
+.apps:hover a, .apps a:focus {
     opacity: .85;
 }
 
@@ -72,6 +76,6 @@ a {
     background-color: rgba(0,0,0,.55);
 }
 
-.bell:hover {
+.bell:hover, .notifications a:focus .bell {
     background-color: rgba(0,0,0,.87);
 }
