@@ -1,0 +1,77 @@
+body {
+    margin: 15px 0 0 0;
+}
+
+a {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.top-bar {
+    display: flex;
+    flex: 1 1 auto;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.top-bar div {
+    text-align: left;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top-link a {
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+.top-link:hover a {
+    opacity: .85;
+    text-decoration: underline;
+}
+
+.top-link, .apps, .notifications {
+    padding-right: 15px;
+}
+
+.apps a {
+    background-position: -132px -38px;
+    opacity: .85;
+}
+
+.background {
+    background-image: url(./apps);
+    background-size: 528px 68px;
+}
+
+.top-button {
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+
+.bell {
+    vertical-align: inherit;
+    box-sizing: inherit;
+    border-radius: 50%;
+    background-position: -194px -21px;
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgba(0,0,0,.55);
+}
+
+.bell:hover {
+    background-color: rgba(0,0,0,.87);
+}
