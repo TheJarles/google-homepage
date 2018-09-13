@@ -79,3 +79,24 @@ a {
 .bell:hover, .notifications a:focus .bell {
     background-color: rgba(0,0,0,.87);
 }
+
+.account-logo {
+    background-image: url(./user.png);
+    background-size: 32px 32px;
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+}
+
+/* screws up the layout, fix later
+.middle {
+    width: 1907px;
+    height: 233px;
+    margin-top: 118px;
+}
+*/
