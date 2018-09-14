@@ -8,8 +8,13 @@ body {
 a {
     font-size: 13px;
     line-height: 24px;
+    color: #1a0dab;
     display: inline-block;
     text-decoration: none;
+}
+
+a:visited {
+    color: #6611CC
 }
 
 a:hover {
@@ -41,6 +46,10 @@ a:hover {
 
 .top-link:hover a, .top-link a:focus, .apps:hover a, .apps a:focus {
     opacity: .85;
+}
+
+.top-link a:focus, .apps a:focus, .notifications a:focus, .account a:focus {
+    outline: 0;
 }
 
 .top-link a:focus {
@@ -159,6 +168,8 @@ img {
 
 .alt-langs a {
     padding: 0 3px;
+    line-height: 28px;
+    display: inline;
 }
 
 .search {
@@ -227,4 +238,40 @@ img {
 
 .input-field:hover {
     border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+.buttons {
+    padding-top: 20px;
+}
+
+.button {
+    height: 36px;
+    line-height: 27px;
+    background-image: -moz-linear-gradient(top, #f5f5f5, #f1f1f1);
+    -moz-user-select: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    margin: 11px 4px;
+}
+
+.button:hover {
+    background-image: -moz-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.button:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
 }
