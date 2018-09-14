@@ -1,4 +1,4 @@
-# The Jarles' proprietary Google knockoff: **Jargle**
+# The Jarles' Proprietary Google Knockoff: **Jargle**
 
 ## The Project:
 
@@ -23,9 +23,17 @@ By the end of this project I hope to know the basics or be better at:
 * General HTML structuring
 * CSS debugging
 
-## What I learned:
+## What I Learned:
 
 A short, non-exhaustive list of what I learned during the course of this
 project:
 
 * Basic markdown syntax
+* Better understanding of CSS
+* Better understanding of the CSS box-model
+* Much better understanding of using/finding stuff in the inspector
+* Better understanding of HTML
+
+#Last Words
+
+I feel I've barely begun scratching the surface of front-end development but I've also learned quite a bit. I'm really satisfied with how the page turned out in the end.
