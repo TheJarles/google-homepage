@@ -34,6 +34,6 @@ project:
 * Much better understanding of using/finding stuff in the inspector
 * Better understanding of HTML
 
-#Last Words
+# Last Words
 
 I feel I've barely begun scratching the surface of front-end development but I've also learned quite a bit. I'm really satisfied with how the page turned out in the end.
